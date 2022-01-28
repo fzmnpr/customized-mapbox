@@ -1,0 +1,21 @@
+/* change background and tip color to green */
+/*.apple-popup .mapboxgl-popup-content {*/
+/*  background-color: green;*/
+/*}*/
+/*.apple-popup .mapboxgl-popup-tip {*/
+/*  border-top-color: red;*/
+/*}*/
+.mapboxgl-popup-close-button {
+    color: #3b5162 !important;
+    font-size: 26px
+}
+
+.mapboxgl-popup-content {
+    position: relative;
+    background: #fff;
+    border-radius: 7px;
+    padding: 10px 10px 15px;
+    pointer-events: auto;
+    max-width: 250px;
+}
+
